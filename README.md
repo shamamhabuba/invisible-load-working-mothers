@@ -130,3 +130,28 @@ The goal is not just analysis—but **visibility**.
 
 *Making invisible work visible through data.*
 
+Excel work list >📌 Project: Paid Hours Data Cleaning
+
+Problem:
+The dataset contained inconsistent text formats, ranges, symbols, and missing values.
+
+Cleaning Steps:
+- Trimmed extra spaces
+- Converted text to lowercase
+- Removed symbols (hrs, +, ~, ish)
+- Extracted min and max hours
+- Handled missing and non-numeric values
+
+Missing Values Strategy:
+- Left as NULL when uncertain
+- Flagged values like 'depends' separately
+
+Outcome:
+A standardized, analysis-ready dataset.
+<img width="1328" height="270" alt="image" src="https://github.com/user-attachments/assets/3517e6f9-1f5a-4a67-8a5e-493949964573" />
+Pictue-Raw data 
+<img width="1340" height="319" alt="image" src="https://github.com/user-attachments/assets/8711be0f-88a5-429d-95c4-1cece450b380" />
+Cleaned data 
+
+
+
